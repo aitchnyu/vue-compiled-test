@@ -1,0 +1,35 @@
+{
+  "name": "vue_compiled",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint app/js/** app/js/**/**",
+    "lint-fix": "eslint app/js/** app/js/**/** --fix; exit 0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.5.1",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-vue": "^5.2.3",
+    "file-loader": "^4.2.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.2.0",
+    "vue-loader": "^15.7.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "leaflet": "^1.5.1",
+    "vue": "^2.6.10",
+    "vue2-leaflet": "^2.2.1"
+  }
+}
